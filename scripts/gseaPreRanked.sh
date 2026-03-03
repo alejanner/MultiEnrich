@@ -25,7 +25,7 @@ for RNK_FILE in "$RNK_DIR"/*.rnk; do
 
     mkdir -p "$OUTDIR"
 
-    echo "▶ Running GSEA on $RNK_FILE"
+    echo "Running GSEA on $RNK_FILE"
 	
    "$GSEA_CLI_PATH" GSEAPreranked \
     -rnk "$RNK_FILE" \
